@@ -1,6 +1,7 @@
 <template>
   <div>
     <Nav />
+    <Home />
     <Identify />
     <Square />
     <Condition />
