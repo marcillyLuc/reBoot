@@ -1,6 +1,6 @@
 <template>
   <div class="frame">
-    <main>
+    <main id="Message">
       <h3>Message</h3>
       <p>Type a message and click the button ...</p>
     </main>

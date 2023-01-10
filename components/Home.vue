@@ -1,6 +1,6 @@
 <template>
   <div class="frame">
-    <main>
+    <main id="Home">
       <h1>Hello,</h1>
       <h2>
         welcome to the website where I re-learn

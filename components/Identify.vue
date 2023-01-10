@@ -1,6 +1,6 @@
 <template>
   <div class="frame">
-    <main>
+    <main id="Identify">
       <h3>Identify</h3>
       <p>Type your informations and see the result ...</p>
     </main>
