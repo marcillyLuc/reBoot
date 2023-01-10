@@ -2,7 +2,10 @@
   <div class="frame">
     <main id="Square">
       <h3>Square</h3>
-      <p>Modify the square bellow ...</p>
+      <p>
+        Modify the square bellow
+        <span class="aqua">...</span>
+      </p>
     </main>
   </div>
 </template>

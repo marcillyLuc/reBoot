@@ -2,7 +2,8 @@
   <div class="frame">
     <main id="Identify">
       <h3>Identify</h3>
-      <p>Type your informations and see the result ...</p>
+      <p>Type your informations and see the result</p>
+      <span class="aqua">...</span>
     </main>
   </div>
 </template>

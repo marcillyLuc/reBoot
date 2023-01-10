@@ -16,8 +16,8 @@ export default {};
 
 <style lang="scss" scoped>
 nav {
+  width: 100vw;
   position: fixed;
-  right: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -29,6 +29,14 @@ a {
   transition: opacity 140ms ease-in-out;
   &:hover {
     opacity: 1;
+  }
+}
+@media screen and (max-width: 700px) {
+  a {
+    font-size: 10pt;
+  }
+  nav {
+    justify-content: center;
   }
 }
 </style>
