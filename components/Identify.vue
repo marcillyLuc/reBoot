@@ -66,4 +66,9 @@ input {
 .result {
   font-size: 14pt;
 }
+@media screen and (max-width: 700px) {
+  .result {
+    font-size: 11pt;
+  }
+}
 </style>
