@@ -8,14 +8,13 @@
       </p>
       <section>
         <label>
-          Make it black
-          <input type="checkbox" v-model="isBlack" />
+          Change frame color
+          <input type="checkbox" v-model="isAqua" />
         </label>
         <label
           >Choose a text color
           <select v-model="textColor">
-            <option value="">Black</option>
-            <option value="text-white">White</option>
+            <option value="">White</option>
             <option value="text-aqua">Aqua</option>
           </select>
         </label>
@@ -45,14 +44,14 @@
 export default {
   data() {
     return {
-      isBlack: false,
+      isAqua: false,
       textColor: "",
       size: 100,
     };
   },
   computed: {
     square_class() {
-      return { isBlack: this.isBlack };
+      return { isAqua: this.isAqua };
     },
   },
 };
@@ -78,22 +77,17 @@ input {
 .square {
   width: 100pt;
   height: 100pt;
-  background-color: white;
-  color: #111;
+  background-color: #222;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 17pt;
   margin: 17pt 0;
-  border: solid 7pt #333;
+  border: solid 7pt white;
   border-bottom-width: 17pt;
 }
-.isBlack {
-  background-color: #222;
-  border-color: white;
-}
-.text-white {
-  color: white;
+.isAqua {
+  border-color: aqua;
 }
 .text-aqua {
   color: aqua;
