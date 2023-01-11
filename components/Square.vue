@@ -28,9 +28,9 @@
           :class="[textColor, square_class]"
           :style="[
             {
-              width: size + 'px',
-              height: size + 'px',
-              lineHeight: size + 'px',
+              width: size + 'pt',
+              height: size + 'pt',
+              lineHeight: size + 'pt',
             },
           ]"
         >
@@ -83,7 +83,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14pt;
+  font-size: 17pt;
   margin: 17pt 0;
   border: solid 7pt #333;
   border-bottom-width: 17pt;
