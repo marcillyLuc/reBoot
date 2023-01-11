@@ -3,7 +3,7 @@
     <main id="Home">
       <h1>Hello,</h1>
       <h2>
-        welcome to the website where I re-learn
+        this is a sandbox to apply good practices with
         <span class="aqua">VueJS / NuxtJS</span> !
       </h2>
     </main>
@@ -38,6 +38,7 @@ h2 {
   h2 {
     font-size: 14pt;
     text-align: center;
+    line-height: 24pt;
   }
 }
 </style>
