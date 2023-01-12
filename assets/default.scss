@@ -92,6 +92,13 @@ main {
   background: #111;
   padding-top: 40px;
 }
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 17pt 0;
+}
 .aqua {
   color: aqua;
 }

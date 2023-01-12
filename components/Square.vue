@@ -58,13 +58,6 @@ export default {
 </script>
 
 <style scoped>
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 17pt 0;
-}
 select,
 input {
   background-color: #222;
@@ -72,7 +65,7 @@ input {
   padding: 4pt;
   margin: 7pt;
   border: none;
-  max-width: 70pt;
+  width: 100pt;
 }
 .square {
   width: 100pt;
