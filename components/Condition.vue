@@ -64,6 +64,7 @@ h4 {
 .square {
   width: 40pt;
   height: 40pt;
+  margin: 17pt 0;
   &-red {
     background-color: crimson;
   }
