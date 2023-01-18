@@ -57,6 +57,7 @@ select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 14pt;
 }
 h4 {
   margin: 14pt;
